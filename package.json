@@ -1,0 +1,17 @@
+{
+  "name": "esbuild-plugin-imp",
+  "version": "0.0.0",
+  "description": "A plugin for esbuild that enables file handling via import.",
+  "repository": "github:graysonlang/esbuild-plugin-imp",
+  "author": "Grayson Lang",
+  "license": "MIT-0",
+  "exports": {
+    ".": {
+      "import": "./esbuild-plugin-imp.mjs",
+      "require": "./esbuild-plugin-imp.cjs"
+    }
+  },
+  "dependencies": {
+    "freshness": "github:/graysonlang/freshness"
+  }
+}
